@@ -1,6 +1,7 @@
 import { IoArrowForward } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import imageSrc from "../assets/welcome.svg";
+// import imageSrc from "../assets/welcome.svg";
+import imageSrc from "../assets/landingScreen.png";
 import Layout from "../components/Layout";
 
 function Welcome() {
@@ -14,16 +15,16 @@ function Welcome() {
 
           <div className="mt-10">
             <p className="text-4xl">
-              <span className="text-green-200 mr-2">Awesome </span>
+              <span className="text-red-500 mr-2">Awesome </span>
               QR Scanner
             </p>
-            <p className="mt-4 text-gray-300 text-opacity-90">
+            <p className="mt-4 text-gray-500 text-opacity-90">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae hic sunt recusandae quaerat esse fugiat
             </p>
           </div>
 
           <div className="mt-5">
-            <Link to="/scanner" className="w-fit flex gap-2 rounded-full bg-yellow-200 text-black">
+            <Link to="/scanner" className="w-fit flex gap-2 rounded-full bg-yellow-300 text-black">
               <span className="my-auto inline-block pl-5 pr-3">Get Started</span>
               <div className="p-4 rounded-full m-1 text-white bg-black">
                 <IoArrowForward className="my-auto text-2xl text-white" />

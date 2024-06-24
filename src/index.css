@@ -5,8 +5,8 @@
 
 html,
 body {
-  background: #1a1a1a;
-  @apply text-gray-100;
+  background: #f3f3f3;
+  @apply text-black;
 }
 
 /* animations */
